@@ -26,6 +26,18 @@ class MySplashScreen1 extends StatelessWidget {
                 ),
               ),
             ),
+
+             const SizedBox(height: 30), //jarak image dan text
+
+             const Text(
+              "Welcome",
+              style: TextStyle(
+                fontSize: 32.0,
+                color: Colors.black,
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+
           ],
         ),
         ),
