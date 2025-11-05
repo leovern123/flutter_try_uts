@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'splash_screen_2.dart';
 
 
 
-class MySplashScreen1 extends StatelessWidget {
-  const MySplashScreen1({super.key});
+
+class MySplashScreen2 extends StatelessWidget {
+  const MySplashScreen2({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -21,7 +21,7 @@ class MySplashScreen1 extends StatelessWidget {
               shape: BoxShape.circle,
               color: Colors.amber,
               image: DecorationImage(
-                  image: AssetImage("assets/images/meow1.jpg"),
+                  image: AssetImage("assets/images/meow2.jpg"),
                   fit: BoxFit.cover, 
                   alignment: Alignment.center, 
                 ),
@@ -64,7 +64,7 @@ class MySplashScreen1 extends StatelessWidget {
                   margin: const EdgeInsets.symmetric(horizontal: 4),
                   decoration: const BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Color.fromARGB(255, 33, 78, 33), // aktif
+                    color: Color.fromARGB(102, 152, 152, 151), // non-aktif
                   ),
                 ),
                 Container(
@@ -73,7 +73,7 @@ class MySplashScreen1 extends StatelessWidget {
                   margin: const EdgeInsets.symmetric(horizontal: 4),
                   decoration: const BoxDecoration(
                     shape: BoxShape.circle,
-                    color: Color.fromARGB(102, 152, 152, 151), // non-aktif
+                    color: Color.fromARGB(255, 33, 78, 33), // aktif
                   ),
                 ),
                 Container(
@@ -98,10 +98,7 @@ class MySplashScreen1 extends StatelessWidget {
                 height: 40,
                 child: ElevatedButton(
                   onPressed: () {
-                    // nanti diarahkan ke splash screen 2
-                      Navigator.push(
-                      context,
-                      MaterialPageRoute(builder: (context) => const MySplashScreen2()));
+                    // nanti diarahkan ke splash screen 3                
                    
                   },
                   style: ElevatedButton.styleFrom(
