@@ -29,6 +29,7 @@ class MySplashScreen1 extends StatelessWidget {
 
              const SizedBox(height: 30), //jarak image dan text
 
+            
              const Text(
               "Welcome",
               style: TextStyle(
@@ -38,6 +39,20 @@ class MySplashScreen1 extends StatelessWidget {
               ),
             ),
 
+              const SizedBox(height: 10),
+
+               // teks di bawahnya welcome
+            const Text(
+              "Apa kamu suka bunyi meow?\nkami siap membantu!",
+              textAlign: TextAlign.center,
+              style: TextStyle(
+                fontSize: 15.0,
+                color: Color.fromARGB(167, 24, 23, 23),
+                height: 1.5, // jarak antar baris
+              ),
+            ),
+
+            
           ],
         ),
         ),
